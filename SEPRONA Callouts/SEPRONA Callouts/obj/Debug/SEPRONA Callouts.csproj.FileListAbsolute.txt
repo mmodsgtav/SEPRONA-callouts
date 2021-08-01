@@ -1,0 +1,13 @@
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.csprojAssemblyReference.cache
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.csproj.CoreCompileInputs.cache
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\SEPRONA Callouts.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\SEPRONA Callouts.pdb
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\LSPD First Response.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\RagePluginHookSDK.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\LSPD First Response.pdb
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\RagePluginHookSDK.xml
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\Debug\es\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.csproj.CopyComplete
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.pdb
