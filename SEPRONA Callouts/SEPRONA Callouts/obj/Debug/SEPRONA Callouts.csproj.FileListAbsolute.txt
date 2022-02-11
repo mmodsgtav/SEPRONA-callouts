@@ -9,3 +9,5 @@ D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\bin\
 D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.csproj.CopyComplete
 D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.dll
 D:\Users\Mikel\Documents\SEPRONA-callouts\SEPRONA Callouts\SEPRONA Callouts\obj\Debug\SEPRONA Callouts.pdb
+D:\Users\Mikel\Documents\SEPRONA-callouts\build\SEPRONA Callouts.dll
+D:\Users\Mikel\Documents\SEPRONA-callouts\build\SEPRONA Callouts.pdb
