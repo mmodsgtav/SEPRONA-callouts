@@ -16,9 +16,9 @@ namespace SEPRONA_Callouts
 {
     public class Api
     {
+        
         public static bool internetAvailable()
         {
-
             try
             {
                 using (WebClient webClient = new WebClient())
