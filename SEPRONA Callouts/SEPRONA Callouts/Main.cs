@@ -47,6 +47,7 @@ namespace SEPRONA_Callouts
         private static void RegisterCallouts()
         {
             LSPD_First_Response.Mod.API.Functions.RegisterCallout(typeof(AnimalMuerto));
+            Functions.RegisterCallout(typeof(MenuTest));
         }
 
         public override void Finally()

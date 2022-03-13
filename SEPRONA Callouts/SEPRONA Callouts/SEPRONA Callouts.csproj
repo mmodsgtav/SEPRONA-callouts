@@ -36,6 +36,9 @@
     <Reference Include="LSPD First Response">
       <HintPath>..\..\dependencies\LSPD First Response.dll</HintPath>
     </Reference>
+    <Reference Include="RAGENativeUI">
+      <HintPath>..\..\dependencies\RAGENativeUI.dll</HintPath>
+    </Reference>
     <Reference Include="RagePluginHookSDK">
       <HintPath>..\..\dependencies\RagePluginHookSDK.dll</HintPath>
     </Reference>
@@ -53,6 +56,7 @@
   <ItemGroup>
     <Compile Include="Api.cs" />
     <Compile Include="Callouts\AnimalMuerto.cs" />
+    <Compile Include="Callouts\MenuTest.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

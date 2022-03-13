@@ -11,6 +11,10 @@ using System.IO;
 using LSPD_First_Response.Mod.API;
 using Rage.Native;
 using System.Reflection;
+using RAGENativeUI;
+using RAGENativeUI.Elements;
+using RAGENativeUI.PauseMenu;
+using System.Windows.Forms;
 
 namespace SEPRONA_Callouts
 {
@@ -70,6 +74,47 @@ namespace SEPRONA_Callouts
         {
             Game.DisplayNotification("sepro_callouts", "sepro_callouts", "SEPRONA CALLOUTS", "Código 4", "Servicio finalizado.");
             Functions.PlayScannerAudio("WE_ARE_CODE_4 NO_FURTHER_UNITS_REQUIRED");
+        }
+    }
+    public class MenuApi
+    {
+        static MenuPool poolMenu = new MenuPool();
+        static UIMenu myMenu = new UIMenu("Seprona Callouts", "~b~Menú de interacción");
+        public static UIMenu createNewMenu()
+        {
+            var button = new UIMenuItem("Hablar con Rodolfo");
+            var checkBox = new UIMenuCheckboxItem("Disponible", false);
+            var lista = new UIMenuListScrollerItem<string>("Lista", "Descripción", new[] { "item1", "item2" });
+            myMenu.AddItems(
+                button,
+                checkBox,
+                lista
+                );
+
+            poolMenu.Add(myMenu);
+            GameFiber.StartNew(procesarMenu);
+            return myMenu;
+        }
+        private static void procesarMenu()
+        {
+            while (true)
+            {
+                GameFiber.Yield();
+                poolMenu.ProcessMenus();
+
+                if (Game.IsKeyDown(Keys.F2))
+                {
+                    if (myMenu.Visible)
+                    {
+                        myMenu.Visible = false;
+                    }
+                    else if (!UIMenu.IsAnyMenuVisible && !TabView.IsAnyPauseMenuVisible)
+                    {
+                        myMenu.Visible = true;
+                    }
+                }
+
+            }
         }
     }
 }
